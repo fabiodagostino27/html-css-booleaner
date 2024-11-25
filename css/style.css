@@ -14,15 +14,21 @@ header {
 }
 
 #logo {
-    height: 50%;
+    height: 40%;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 2%;
 }
 
 /* Main */
+main {
+    margin: 20px;
+}
+
+/* Titolo, autore e data */
 main h1 {
     margin-top: 10px;
+    font-size: 40px;
 }
 
 #autore, #data {
@@ -39,4 +45,13 @@ main h1 {
 
 #data {
     font-size: 14px;
+}
+
+/* Immagini articolo */
+.immagini-articolo {
+    margin-top: 20px;
+}
+
+.immagini-articolo p {
+    font-size: 14px
 }
