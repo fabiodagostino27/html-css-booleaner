@@ -9,7 +9,7 @@ header {
     width: 100%;
     height: 150px;
     background-image: url(../img/pattern.png);
-    background-color: rgb(35, 138, 235);
+    background-color: #4EA0FF;
     position: relative;
 }
 
@@ -41,7 +41,7 @@ main h1 {
 }
 
 #autore span {
-    color: rgb(35, 138, 235);
+    color: #4EA0FF;
 }
 
 #data {
@@ -69,7 +69,7 @@ main table {
 }
 
 table thead {
-    background-color: rgb(35, 138, 235);
+    background-color: #4EA0FF;
     color: white;
 }
 
@@ -78,7 +78,7 @@ tr td:nth-last-child(1), tr th:nth-last-child(1) {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: lightskyblue;
+    background-color: #B1E5F2;
 }
 
 /* Footer */
