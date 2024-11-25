@@ -48,10 +48,15 @@ main h1 {
 }
 
 /* Immagini articolo */
-.immagini-articolo {
-    margin-top: 20px;
+.immagini-articolo p {
+    font-size: 13px
 }
 
-.immagini-articolo p {
-    font-size: 14px
+/* Articolo */
+main .articolo {
+    margin: 20px 0;
+}
+
+#lista-articolo {
+    margin: 15px 20px;
 }
