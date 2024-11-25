@@ -60,3 +60,21 @@ main .articolo {
 #lista-articolo {
     margin: 15px 20px;
 }
+
+/* Tabella */
+main table {
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: rgb(35, 138, 235);
+    color: white;
+}
+
+tr td:nth-last-child(1), tr th:nth-last-child(1) {
+    width: 50%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightskyblue;
+}
