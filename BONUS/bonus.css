@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
-main, footer {
+/* Bonus */
+main, footer, .bonus {
     width: 80%;
     margin: 0 auto;
+}
+
+.bonus {
+    position: relative;
+    height: 100%;
 }
 
 /* Header */
@@ -15,7 +21,6 @@ header {
     height: 150px;
     background-image: url(../img/pattern.png);
     background-color: #4EA0FF;
-    position: relative;
 }
 
 #logo {
